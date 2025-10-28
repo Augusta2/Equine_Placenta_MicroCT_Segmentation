@@ -1,7 +1,8 @@
 
-# Quantitative 3D Analysisof the Equine Placenta Using Intensity-Based Image Segmentation
+# Quantitative 3D Analysis of the Equine Placenta Using Intensity-Based Image Segmentation
 
-This project demonstrates how micro-CT data of the equine placenta can be processed using **Python and scikit-image** for intensity-based segmentation, volumetric quantification, and gross morphological interpretation.
+This project applies intensity-based image segmentation using open-source Python tools to a high-resolution micro-CT dataset of the equine placenta (363 × 3132 × 2076 voxels; voxel size = 86 μm) to extract quantitative volumetric metrics of major tissue compartments.
+
 
 # Project Overview
 - **Data:** Public equine placenta micro-CT dataset (EBI BioStudies S-BIAD1130)
@@ -17,16 +18,6 @@ This project demonstrates how micro-CT data of the equine placenta can be proces
 
 
 #  Results Summary
-Placenta Volume Analysis
-   Label  Voxel_count  Volume_mm3  Volume_fraction_%  Volume_cm3
-0      1   1855168815  1179991.00          78.600934  1179.99100
-1      2    119866435    76241.77           5.078575    76.24177
-2      3    182743903   116235.40           7.742606   116.23540
-3      4    202458463   128774.90           8.577885   128.77490
-
-Total Placental Volume:
-  → 1501243.07 mm³
-  → 1501.24 cm³
 
 The total volume derived from this analysis (≈ 1501 cm³) is lower than the value reported by D.Laundon et al. (2024) (≈ 2148 cm³).
 However, both results show a dominant contribution of the outer placental layers.
