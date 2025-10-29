@@ -22,8 +22,8 @@ This project applies intensity-based image segmentation using open-source Python
 The total volume derived from this analysis (≈ 1501 cm³) is lower than the value reported by D.Laundon et al. (2024) (≈ 2148 cm³).
 However, both results show a dominant contribution of the outer placental layers.
 
-The combined amnion + chorion volumes (≈ 1308 cm³) are comparable to the allantochorion (1412 cm³) reported in the reference study, demonstrating similar overall scale and tissue dominance.
-Lower-density fluid regions (amniotic and allantoic spaces) are difficult to isolate reliably using global intensity thresholds, leading to under-representation of these volumes.
+The combined allantoic + chorion volumes (≈ 1308 cm³) are comparable to the allantochorion (1412 cm³) reported in the reference study, demonstrating similar overall scale and tissue dominance.
+Amniotic sac, vessels and allantoic spaces were difficult to isolate reliably using global intensity thresholds, leading to under-representation of these volumes.
 The differences highlight the limitation of intensity-based segmentation, which does not incorporate anatomical context available in machine-learning approaches.
 Despite its limitations, this threshold-based segmentation provides a reasonable gross morphometric approximation of the placenta.
 Future work will involve deep-learning-based segmentation to improve anatomical accuracy and enable quantitative 3D vascular and compartmental analysis consistent with the reference study.
